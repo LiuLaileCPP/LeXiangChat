@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="net">
+      <UniqueIdentifier>{8c05f3d1-e951-4fd4-aaef-4cab43872ec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{ce5c0d5f-5c91-4a43-a2f4-bc121e92a387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kernel">
+      <UniqueIdentifier>{a9f80bfc-cb09-4cfd-b0a3-e21756a492e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DBS">
+      <UniqueIdentifier>{1d7a9989-d2da-4aa5-9153-b3cb4d0668f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="net\inet.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\tcpnet.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\udpnet.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="config\config.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\kernel.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MySQL\CMySql.cpp">
+      <Filter>DBS</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="net\inet.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\tcpnet.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\udpnet.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="config\Ser_config.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\kernel.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQL\CMySql.h">
+      <Filter>DBS</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
