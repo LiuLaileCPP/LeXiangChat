@@ -1,4 +1,4 @@
-# LeXiangChat
+# LeXiangChat 【代码在master分支】
 乐享畅聊
 
 ### 服务器的实现
